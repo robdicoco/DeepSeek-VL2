@@ -12,8 +12,8 @@ urls = {homepage = "https://github.com/deepseek-ai/DeepSeek-VL2"}
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "torch==2.0.1",
-    "transformers==4.38.2",
+    "torch==2.13.0",
+    "transformers==5.10.1",
     "timm>=0.9.16",
     "accelerate",
     "sentencepiece",
@@ -23,16 +23,16 @@ dependencies = [
 
 [project.optional-dependencies]
 gradio = [
-    "gradio==3.48.0",
+    "gradio==6.15.1",
     "gradio-client==0.6.1",
     "mdtex2html==1.3.0",
     "pypinyin==0.50.0",
     "tiktoken==0.5.2",
-    "tqdm==4.64.0",
+    "tqdm==4.66.3",
     "colorama==0.4.5",
-    "Pygments==2.12.0",
-    "markdown==3.4.1",
-    "SentencePiece==0.1.96"
+    "Pygments==2.20.0",
+    "markdown==3.8.1",
+    "SentencePiece==0.2.1"
 ]
 lint = [
     "isort",
